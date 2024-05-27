@@ -27,7 +27,6 @@ body {
     margin-bottom: 100px;
     
     
-    
 }
 
 .link1, .link2, .link3 {
@@ -107,46 +106,155 @@ body {
     
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .randominformationcontainer {
-    background-color: grey;
+    background-color: blanchedalmond;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 200px;
+    
+    
   
 }
 
+.randominformation {
+    font-size: 36px;
+    font-weight: bold;
+    color: #1F2937;
+}
+
+.informationcontainer {
+    display: flex;
+    justify-content: center;
+}
+
+
+.blueimages {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    
+    
+    
+}
+
+
+    
+    
+.image1, .image2, .image3, .image4 {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    width: 300px;
+
+    
+    
+    
+    
+    
+}
+
+.paragraph1, .paragraph2, .paragraph3, .paragraph4 {
+    word-wrap: break-word;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+
+    
+    
+
+}
+
+
+    
+
+
+
+
+
 .inspiringquotecontainer {
     background-color: antiquewhite;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+    
+    
+}
+
+.inspiringquotecontain {
+    padding: 10px;
+    margin: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+   
+    
+}
+
+
+.inspiringquote {
+    font-size: 40px;
+    font-style: italic;
+}
+
+.inspiringquote1 {
+    font-weight: bold;
+
+}
+
+.inspcont1 {
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+
 }
 
 .callactioncontainer {
     background-color: azure;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
+
+.bluecontainer {
+    background-color: #3882F6;
+    width: 1000px;
+    height: 100px;
+    padding: 20px;
+    margin: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+
+.actiontimecontainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.callaction {
+    font-size: large;
+    font-weight: bold;
+    color: white;
+}
+
+.Signuptext {
+    color: white;
+
+}
+
+
+
+
+
 
 .footercontainer {
     background-color: aquamarine;
 }
+
