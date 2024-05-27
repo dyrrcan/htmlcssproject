@@ -3,26 +3,29 @@ a {
     color:#F9FAF8;
 }
 
-
-
-
-
-
 body {
     display: flex;
     flex-direction: column;
 }
 
 
+.firstcontainer {
+    background-color:#1F2937;
+}
+
 .headerlinkcontainer {
     display: flex;
     flex-direction: row;
-    background-color:#1F2937;
+    
+    justify-content: space-evenly;
+    
 }
 
 .headerlinks {
     display: flex;
-    margin-left: auto;
+    flex-direction: row;
+    margin-bottom: 100px;
+    
     
     
 }
@@ -36,42 +39,114 @@ body {
 .headerlogo {
     font-weight: bold;
     color:#F9FAF8;
-    margin: 20px;
+    margin-bottom: 100px;
     font-size: 24px;
 }
 
 .awesomewebsite {
-    background-color: #1F2937;
+    
     display: flex;
     flex-direction: row;
+    justify-content: space-evenly;
+    margin-bottom: 200px;
+    
+    
+    
 }
 
 .titleawesome {
     font-size: 48px;
     font-weight: bold;
-    color:#F9FAF8
+    color:#F9FAF8;
+    padding:10px;
+    margin: 2px;
+    
 
 }
 
 .subtext1 {
     font-size: 18px;
     color: #E5E7EB;
+    padding: 10px;
+    margin: 2px;
 }
 
 .button1 {
     color:white;
+    font-weight: bold;
     background-color:#3882F6;
     border: none;
     border-radius: 10px;
-    padding: 10px;
-    margin: 10px;
-    justify-content: center;
-    width: 100px;
+    width: 120px;
+    height: 30px;
+    padding: 8px;
+    margin: 5px;
+    
+    
 }
 
 .awesome {
-    width: 300px;
+
+    width: 400px;
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    
 
+}
+
+.buttoncontainer {
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.imageholder {
+    display: flex;
+    flex-direction: row;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.randominformationcontainer {
+    background-color: grey;
+  
+}
+
+.inspiringquotecontainer {
+    background-color: antiquewhite;
+}
+
+.callactioncontainer {
+    background-color: azure;
+}
+
+.footercontainer {
+    background-color: aquamarine;
 }
