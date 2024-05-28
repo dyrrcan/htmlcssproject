@@ -6,6 +6,7 @@ a {
 body {
     display: flex;
     flex-direction: column;
+    margin: 0px;
 }
 
 
@@ -78,7 +79,7 @@ body {
     border-radius: 10px;
     width: 120px;
     height: 30px;
-    padding: 8px;
+    padding: 0px;
     margin: 5px;
     
     
@@ -107,7 +108,7 @@ body {
 }
 
 .randominformationcontainer {
-    background-color: blanchedalmond;
+    background-color: whitesmoke;
     display: flex;
     flex-direction: column;
     padding-bottom: 200px;
@@ -228,6 +229,7 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    border-radius: 20px;
 }
 
 
@@ -235,17 +237,20 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    
 }
 
 
 .callaction {
-    font-size: large;
+    font-size: 30px;
     font-weight: bold;
     color: white;
+    margin: 0px;
 }
 
 .Signuptext {
     color: white;
+    margin: 0px;
 
 }
 
@@ -255,6 +260,48 @@ body {
 
 
 .footercontainer {
-    background-color: aquamarine;
+    background-color:#1F2937;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-items: flex-end;
+    
 }
 
+.buttoncontainer1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    
+    
+    
+}
+
+.button2 {
+    color:white;
+    font-weight: bold;
+    background-color:#3882F6;
+    border-color: white;
+    border-width: 3px;
+    font-size: 20px;
+    border-radius: 10px;
+    width: 100px;
+    height: auto;
+    box-sizing: content-box;
+    padding: 10px;
+    margin: 10px;
+    
+    
+    
+}
+
+.footer {
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+    align-items: center;
+    justify-content: center;
+
+}
