@@ -9,6 +9,10 @@ body {
     margin: 0px;
 }
 
+img {
+    border-radius: 20px;
+    
+}
 
 .firstcontainer {
     background-color:#1F2937;
@@ -27,14 +31,22 @@ body {
     flex-direction: row;
     margin-bottom: 100px;
     
-    
 }
+
+
 
 .link1, .link2, .link3 {
     margin: 10px;
     list-style-type: none;
-    
+    transition-duration: 0.5s;
+
 }
+
+a:hover {
+    color: #3882F6;
+}
+
+
 
 .headerlogo {
     font-weight: bold;
@@ -53,6 +65,8 @@ body {
     
     
 }
+
+
 
 .titleawesome {
     font-size: 48px;
@@ -81,9 +95,25 @@ body {
     height: 30px;
     padding: 0px;
     margin: 5px;
+    transition-duration: 0.35s;
     
     
 }
+
+.button1:hover {
+    background-color: rgb(255, 255, 255);
+    color:#3882F6;
+    letter-spacing: 0.1em;
+
+
+
+}
+
+
+
+
+
+
 
 .awesome {
 
@@ -99,6 +129,7 @@ body {
     display: flex;
     flex-direction: row;
     
+    
 }
 
 .imageholder {
@@ -108,8 +139,9 @@ body {
 }
 
 .randominformationcontainer {
-    background-color: whitesmoke;
-    display: flex;
+    background-color: #1f2d42;
+
+     display: flex;
     flex-direction: column;
     padding-bottom: 200px;
     
@@ -120,7 +152,7 @@ body {
 .randominformation {
     font-size: 36px;
     font-weight: bold;
-    color: #1F2937;
+    color: whitesmoke
 }
 
 .informationcontainer {
@@ -158,7 +190,10 @@ body {
 
 .paragraph1, .paragraph2, .paragraph3, .paragraph4 {
     word-wrap: break-word;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+    
+    color: whitesmoke;
+    font-style: italic;
+    
 
     
     
@@ -173,7 +208,7 @@ body {
 
 
 .inspiringquotecontainer {
-    background-color: antiquewhite;
+    background-color: rgb(129, 151, 179);
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -196,7 +231,7 @@ body {
 
 
 .inspiringquote {
-    font-size: 40px;
+    font-size: 30px;
     font-style: italic;
 }
 
@@ -213,7 +248,7 @@ body {
 }
 
 .callactioncontainer {
-    background-color: azure;
+    background-color: rgb(31, 39, 61);
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -292,9 +327,18 @@ body {
     box-sizing: content-box;
     padding: 10px;
     margin: 10px;
+    transition-duration: 0.35s;
+
     
     
     
+}
+
+.button2:hover {
+    background-color: white;
+    color: #3882F6;
+    letter-spacing: 0.1em;
+
 }
 
 .footer {
